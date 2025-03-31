@@ -1,26 +1,26 @@
 <div  class="home">
   <div class="row">
-    <div class="col-md-4 col-sm-6 col-xs-12">
+    <div class="col-md-4 col-sm-6 col-xs-12" *ngFor="let card of cards">
       <div class="card">
         <div class="cover item-a">
-          <h1>DISPLAY:<br>FLAX</h1>
-          <span class="price">სავარჯიშოების რაოდებობა: 50</span>
+          <h1>{{card.mainText}}:<br>{{card.style}}</h1>
+          <span class="price">{{card.quantity}}: {{card.numbers}}</span>
           <div class="card-back">
-            <a href="#">დაწყება</a>
+            <a href="{{card.url}}">{{card.start}}</a>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <div class="card">
-        <div class="cover item-b">
-          <h1>DISPLAY:<br>GRID</h1>
-          <span class="price">სავარჯიშოების რაოდებობა: 50</span>
-          <div class="card-back">
-            <a href="#">დაწყება</a>
-          </div>
-        </div>
-      </div>
-    </div>
+<!--    <div class="col-md-4 col-sm-6 col-xs-12">-->
+<!--      <div class="card">-->
+<!--        <div class="cover item-b">-->
+<!--          <h1>DISPLAY:<br>GRID</h1>-->
+<!--          <span class="price">სავარჯიშოების რაოდებობა: 50</span>-->
+<!--          <div class="card-back">-->
+<!--            <a href="mtsvadi-grid">დაწყება</a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
   </div>
 </div>

@@ -17,7 +17,7 @@ export const routes: Routes = [
     component: KhinkaliFlexComponent,
   },
   {
-    path: 'mtswvadi-grid',
+    path: 'mtsvadi-grid',
     component: MtsvadiGridComponent,
   },
   {
