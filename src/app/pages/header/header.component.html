@@ -1,1 +1,11 @@
-<p>header works!</p>
+<div class="header">
+  <nav class="header__nav"
+  >
+    <a *ngFor="let header of headers"
+       [routerLink]="header.url"
+       (click)="setActivePage(header)"
+       [ngStyle]="{'active' : header.isActive}"
+    >{{ header.pageName }}</a>
+<!--    <div class="dot"></div>-->
+  </nav>
+</div>
