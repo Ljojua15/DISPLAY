@@ -4,8 +4,9 @@
     <a *ngFor="let header of headers"
        [routerLink]="header.url"
        (click)="setActivePage(header)"
-       [ngStyle]="{'active' : header.isActive}"
-    >{{ header.pageName }}</a>
+       [class.active]="header.isActive"
+    >{{ header.pageName }}
+    </a>
 <!--    <div class="dot"></div>-->
   </nav>
 </div>
