@@ -1,1 +1,6 @@
-<p>footer works!</p>
+<div class="footer">
+  <div class="footer__title">2025 © CSS DISPLAY EXERCISES&EXAMPLES </div>
+  <div class="footer__icons" *ngFor="let contact of contacts">
+      <a [href]="contact.link"><img [src]="contact.icons" alt="*"></a>
+  </div>
+</div>
