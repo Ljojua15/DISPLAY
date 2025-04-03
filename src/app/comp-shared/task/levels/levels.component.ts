@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, inject} from '@angular/core';
+import {FlexService} from '@/app/lib/services/flex.service';
 
 @Component({
   selector: 'display-levels',
@@ -7,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './levels.component.scss'
 })
 export class LevelsComponent {
+  public flexService = inject(FlexService)
+
+
 
 }
