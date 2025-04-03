@@ -14,9 +14,8 @@
   &__task-place{
     width: 50%;
     height: 100%;
-    background-color: black;
   }
-  &__codding-place{
+  &__result-place{
     width: 50%;
     height: 100%;
     background-color: red;
@@ -30,7 +29,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    &__codding-place,&__task-place{
+    &__result-place,&__task-place{
       width: 100%;
     }
   }

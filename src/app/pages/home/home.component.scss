@@ -1,3 +1,4 @@
+@use '../../../assets/styles/mixins.scss';
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap');
 
 $transition-time: 2.3s;
@@ -21,9 +22,7 @@ body{
   width: 100%;
   transition: ease all $transition-time;
   perspective: 1200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include mixins.flex(center,center);
   &:hover{
     .cover{
       transform: rotateX(0deg) rotateY(-180deg);

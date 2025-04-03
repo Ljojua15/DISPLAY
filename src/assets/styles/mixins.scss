@@ -4,3 +4,10 @@
   align-items: $align;
   flex-direction: $direct;
 }
+
+
+@mixin mobile($max-width:750px){
+  @media (max-width: $max-width) {
+    @content;
+  }
+}
