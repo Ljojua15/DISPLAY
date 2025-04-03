@@ -21,19 +21,26 @@ export class FlexService {
 
   public $codePlace$ = computed(() => this.currentLesson?.codePlace || []);
 
+  public $movingDivs$ = computed(() => {
+    return this.currentLesson?.movingDivs || []
+  })
+
+  public $targetDivs$ = computed(() => {
+    return this.currentLesson?.targetDivs || [];
+  });
+
+  public $targetDivsStyle$ = computed(() => {
+    return this.currentLesson?.targetDivsStyle?.[0] || {};
+  });
+
 
   public $answer$ = computed(() => {
     return this.currentLesson?.answers || [];
   })
 
-
-  // constructor() {
-  //   console.log('test')
-  //   setTimeout(() => {
-  //     console.log("FlexService constructor", this.flexConfigLength);
-  //     console.log(this.$codePlace$())
-  //   },1000)
-  // }
+  constructor() {
+    console.log(this.$targetDivsStyle$())
+  }
 
 
 }
