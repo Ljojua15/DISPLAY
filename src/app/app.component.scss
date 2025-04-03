@@ -7,6 +7,9 @@
   min-width: 360px;
   perspective: 1000px;
   perspective-origin: 50% 50%;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
   @keyframes scroll {
     100% {
       background-position: 0px -400%;
@@ -29,7 +32,7 @@
     }
     &__footer {
       width: 100%;
-      height: 8vh;
+      height: 9.9vh;
     }
     &__changes {
       width: 100%;
