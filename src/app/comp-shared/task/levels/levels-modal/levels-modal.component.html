@@ -1,1 +1,11 @@
-<p>levels-modal works!</p>
+<div class="level-popup">
+  <div class="level-popup__cont">
+
+    <div class="level-popup__cont--items"
+         (click)="changeLevelFromButton(id)"
+         *ngFor="let id of idOfExamples"
+         [ngClass]="{'level-popup__cont--active': id === $activeItem$()}"
+    >{{id}}</div>
+
+  </div>
+</div>

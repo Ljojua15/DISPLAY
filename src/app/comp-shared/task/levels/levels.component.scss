@@ -24,6 +24,14 @@
     border: 0.1px solid yellow;
     height: 100%;
     @include mixins.flex(center, center, row);
+    &--modal{
+      position: absolute;
+      width: 20%;
+      max-height: 200px;
+      height: 100%;
+      background-color: #373737;
+      top: 18%;
+    }
     &--left{
       max-width: calc(100% - 20px);
       width: 10%;

@@ -4,7 +4,10 @@
     <div class="level__swiper--left"
          [class.level__swiper--opacity]="$currentLevel$() === 1"
          (click)="changeLevel('prev')"> < </div>
-    <div class="level__swiper--content">
+    <div class="level__swiper--content" (click)="openLevelPopup()">
+      <div class="level__swiper--modal" *ngIf="$isLevelOpens$()">
+        <display-levels-modal />
+      </div >
       <p>
         ლეველები: {{$currentLevel$()}} / {{$quantityOfLessons$()}}
       </p>
