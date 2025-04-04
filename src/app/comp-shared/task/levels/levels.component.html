@@ -1,12 +1,16 @@
 <div class="level">
   <div class="level__name">ხინკალი FLEX</div>
   <div class="level__swiper">
-    <div class="level__swiper--left"> < </div>
+    <div class="level__swiper--left"
+         [class.level__swiper--opacity]="$currentLevel$() === 1"
+         (click)="changeLevel('prev')"> < </div>
     <div class="level__swiper--content">
       <p>
-        ლეველები: 1 / 50
+        ლეველები: {{$currentLevel$()}} / {{$quantityOfLessons$()}}
       </p>
     </div>
-    <div class="level__swiper--right"> > </div>
+    <div class="level__swiper--right"
+         [class.level__swiper--opacity]="$currentLevel$() === $quantityOfLessons$()"
+         (click)="changeLevel('next')"> ></div>
   </div>
 </div>

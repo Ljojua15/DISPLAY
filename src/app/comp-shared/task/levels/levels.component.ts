@@ -1,4 +1,4 @@
-import {Component, inject} from '@angular/core';
+import {Component, computed, inject} from '@angular/core';
 import {FlexService} from '@/app/lib/services/flex.service';
 
 @Component({
@@ -10,6 +10,19 @@ import {FlexService} from '@/app/lib/services/flex.service';
 export class LevelsComponent {
   public flexService = inject(FlexService)
 
+  public $currentLevel$ = computed(()=>{
+    return this.flexService.currentLevel();
+  })
+
+  public $quantityOfLessons$ = computed(()=>{
+    return this.flexService.flexConfigLength;
+  })
+
+  public changeLevel(direction: 'prev' | 'next') {
+    this.flexService.changeLevel(direction);
+    this.flexService.resetCodeControl()
+  }
 
 
+  protected readonly length = length;
 }

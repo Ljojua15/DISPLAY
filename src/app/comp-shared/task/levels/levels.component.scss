@@ -43,6 +43,10 @@
       font-size: 20px;
       font-weight: bold;
     }
+    &--opacity{
+      opacity: 0.5;
+      pointer-events: none;
+    }
     &--content{
       max-width: calc(100% - 20px);
       width: 70%;
