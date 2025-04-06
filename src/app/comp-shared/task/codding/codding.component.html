@@ -1,1 +1,42 @@
-<p>codding works!</p>
+<div class="codding">
+  <div class="codding__lines">
+    <ul>
+      <li *ngFor="let line of $codePlace$(); let i = index">{{ line.id }}</li>
+    </ul>
+  </div>
+  <div class="codding__write-place">
+    <!--    <ul>-->
+    <!--      <li>  <pre>#khinkali {{'{'}}</pre></li>-->
+    <!--      <li>display: flex;</li>-->
+    <!--      <li>    <textarea type="text" [formControl]="code"  id="code" autofocus="" autocapitalize="none" spellcheck="false"></textarea></li>-->
+    <!--      <li></li>-->
+    <!--      <li></li>-->
+    <!--      <li>{{'}'}}</li>-->
+    <!--      <li></li>-->
+    <!--      <li></li>-->
+    <!--      <li></li>-->
+    <!--      <li></li>-->
+    <!--    </ul>-->
+    <ul>
+      <li *ngFor="let codeLine of $codePlace$(); let i = index">
+        <pre *ngIf="codeLine.text.includes('{') || codeLine.text.includes('}')">{{ codeLine.text }}</pre>
+        <span *ngIf="!codeLine.text.includes('{') && !codeLine.text.includes('}') && i !== 2">
+          {{ codeLine.text }}
+        </span>
+        <textarea
+          *ngIf="codeLine.text === 'area'"
+          type="text"
+          [formControl]="$code$()"
+          id="code"
+          autofocus
+          autocapitalize="none"
+          spellcheck="false"
+        ></textarea>
+      </li>
+    </ul>
+  </div>
+  <button class="codding__write-place--btn"
+          [class.codding__write-place--btn-active]="$isCorrect$()()"
+          (click)="enterCode('done')"
+  >შემდეგი</button>
+</div>

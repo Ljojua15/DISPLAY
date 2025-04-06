@@ -1,0 +1,95 @@
+@use 'src/assets/styles/mixins.scss';
+
+.codding{
+  position: relative;
+  width: calc(100% - 10px);
+  //height: 38vh;
+  background-color: #51730c;
+  margin: auto;
+  @include mixins.flex(center,center,row);
+  &__lines{
+    width: 10%;
+    height: 100%;
+    background-color: #6d6d6d;
+    @include mixins.flex(center,center,column);
+    ul{
+
+      height: 100%;
+      @include mixins.flex(center,center,column);
+      gap: 1%;
+      li{
+        font-size: 20px;
+        height: 30px;
+      }
+    }
+  }
+  &__write-place{
+    width: 96%;
+    height: 100%;
+    background-color: #e0e0e0;
+    &--btn{
+      position: absolute;
+      border: none;
+      width: 16%;
+      height: 10%;
+      //font-family: variables.$second-font;
+      @include mixins.flex(center,center,column);
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      bottom: 10px;
+      right: 20px;
+      background-color: #D11606;
+      color: black;
+      &-active{
+        cursor: pointer;
+        background-color: #5cbd5c;
+        animation: pulse 2s infinite;
+        @keyframes pulse {
+          0% {
+            transform: scale(1);
+          }
+
+          50% {
+            transform: scale(1.1);
+          }
+
+          100% {
+            transform: scale(1);
+          }
+        }
+      }
+
+    }
+
+    ul{
+      width: 96%;
+      height: 100%;
+      @include mixins.flex(center,center,column);
+      gap: 1%;
+      li{
+        padding-left: 40px;
+        width: 96%;
+        height: 30px;
+        font-size: 20px;
+        //font-family: variables.$second-font;
+        textarea{
+          resize: none;
+          display: block;
+          width: calc(100% - 16px);
+          overflow: hidden;
+          font-size: 20px;
+          border: none;
+          height: 72px;
+        }
+      }
+      li:first-child {
+        padding-left: unset;
+      }
+      li:nth-child(4) {
+        padding-left: unset;
+      }
+    }
+  }
+}
+
