@@ -17,18 +17,22 @@ export class CoddingComponent {
   public readonly coddingService = inject(CoddingService);
   private readonly flexService  = inject(FlexService)
 
+
   public $code$ = this.flexService.$codeControl$;
   //
   public $isCorrect$ = computed(() => {
     return this.coddingService.isCodeCorrect()
   })
 
-
+  public sessionArray = []
 
   ngOnInit(){
     this.$code$().valueChanges.pipe(debounceTime(500)).subscribe(value => {
       this.coddingService.$myCode$.set(this.$code$().value);
     });
+
+
+
   }
 
   public $codePlace$ = this.flexService.$codePlace$;

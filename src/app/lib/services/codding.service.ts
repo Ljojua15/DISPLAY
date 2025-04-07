@@ -7,7 +7,7 @@ import {FlexService} from '@/app/lib/services/flex.service';
 export class CoddingService {
   public flexService = inject(FlexService);
 
-  public $myCode$ = signal<string | null>(' ');
+  public $myCode$ = signal<any>(' ');
   public $answers$ = this.flexService.$answer$
 
   public isCodeCorrect():WritableSignal<boolean>{

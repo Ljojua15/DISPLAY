@@ -1,7 +1,8 @@
-import {Component, computed, inject, signal} from '@angular/core';
+import {Component, computed, effect, inject, OnInit, signal} from '@angular/core';
 import {FlexService} from '@/app/lib/services/flex.service';
 import {LevelsModalComponent} from '@/app/comp-shared/task/levels/levels-modal/levels-modal.component';
 import {CommonModule} from '@angular/common';
+import {CoddingService} from '@/app/lib/services/codding.service';
 
 @Component({
   selector: 'display-levels',
@@ -14,6 +15,7 @@ import {CommonModule} from '@angular/common';
 })
 export class LevelsComponent {
   public flexService = inject(FlexService)
+  public coddingService = inject(CoddingService)
 
   public $currentLevel$ = computed(()=>{
     return this.flexService.$currentLevel$();
@@ -32,5 +34,7 @@ export class LevelsComponent {
   public openLevelPopup(){
     this.$isLevelOpens$.update((prev) => !prev);
   }
+
+
 
 }

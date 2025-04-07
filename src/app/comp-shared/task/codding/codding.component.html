@@ -5,18 +5,6 @@
     </ul>
   </div>
   <div class="codding__write-place">
-    <!--    <ul>-->
-    <!--      <li>  <pre>#khinkali {{'{'}}</pre></li>-->
-    <!--      <li>display: flex;</li>-->
-    <!--      <li>    <textarea type="text" [formControl]="code"  id="code" autofocus="" autocapitalize="none" spellcheck="false"></textarea></li>-->
-    <!--      <li></li>-->
-    <!--      <li></li>-->
-    <!--      <li>{{'}'}}</li>-->
-    <!--      <li></li>-->
-    <!--      <li></li>-->
-    <!--      <li></li>-->
-    <!--      <li></li>-->
-    <!--    </ul>-->
     <ul>
       <li *ngFor="let codeLine of $codePlace$(); let i = index">
         <pre *ngIf="codeLine.text.includes('{') || codeLine.text.includes('}')">{{ codeLine.text }}</pre>
