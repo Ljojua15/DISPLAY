@@ -31,6 +31,8 @@ export class ResultComponent {
   }
 
   parseStyle(styleString: string): { [key: string]: string } {
+    if(!styleString) return {}
+
     return styleString
       .split(';')
       .filter(rule => rule.includes(': '))
