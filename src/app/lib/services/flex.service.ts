@@ -1,15 +1,17 @@
-import {computed, Injectable, signal} from '@angular/core';
+import {computed, inject, Injectable, signal} from '@angular/core';
 import {FLEX_CONFIG} from '@/app/lib/lessons/flex.config';
 import {FormControl} from '@angular/forms';
+import {LocalStorageService} from '@/app/lib/services/local-storage.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class FlexService {
   private flexConfig:any = FLEX_CONFIG
-
+  public localStorageService = inject(LocalStorageService)
   public $codeControl$ = signal<FormControl>(new FormControl(''))
   public $currentLevel$ = signal<number>(1)
+
 
 
   public flexConfigLength = Object.keys(this.flexConfig).length;
@@ -38,6 +40,7 @@ export class FlexService {
   })
 
   public resetCodeControl() {
+
     this.$codeControl$().setValue('');
   }
 
