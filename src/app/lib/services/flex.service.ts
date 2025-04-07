@@ -15,7 +15,6 @@ export class FlexService {
   public flexConfigLength = Object.keys(this.flexConfig).length;
 
   get currentLesson():any {
-    console.log(this.flexConfig[this.$currentLevel$()])
     return this.flexConfig[this.$currentLevel$()];
   }
 
@@ -43,7 +42,6 @@ export class FlexService {
   }
 
   constructor() {
-    console.log(this.$targetDivsStyle$())
   }
 
   public changeLevel(direct : 'prev' | 'next') {
