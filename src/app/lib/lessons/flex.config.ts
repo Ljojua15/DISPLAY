@@ -139,18 +139,18 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "yellow",
+        backgroundColor: "./assets/images/origin.svg",
       },
       {
-        backgroundColor: "blue",
+        backgroundColor: "./assets/images/pinki.svg",
       },
     ],
     targetDivs: [
       {
-        backgroundColor: "yellow",
+        backgroundColor: "#ffe2e7",
       },
       {
-        backgroundColor: "blue",
+        backgroundColor: "#ff0000",
       },
     ],
     targetDivsStyle: [
@@ -225,24 +225,25 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "red",
+        backgroundColor: "./assets/images/origin.svg",
       },
       {
-        backgroundColor: "green",
+        backgroundColor: "./assets/images/pinki.svg",
       },
       {
-        backgroundColor: "blue",
+        backgroundColor: "./assets/images/green.svg",
       },
     ],
     targetDivs: [
       {
-        backgroundColor: "red",
+        backgroundColor: "#ffe2e7",
+      },
+
+      {
+        backgroundColor: "#ff0000",
       },
       {
-        backgroundColor: "green",
-      },
-      {
-        backgroundColor: "blue",
+        backgroundColor: "#00ff00",
       },
     ],
     targetDivsStyle: [
@@ -314,18 +315,18 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "orange",
+        backgroundColor: "./assets/images/green.svg",
       },
       {
-        backgroundColor: "pink",
+        backgroundColor: "./assets/images/pinki.svg",
       },
     ],
     targetDivs: [
       {
-        backgroundColor: "orange",
+        backgroundColor: "#00ff00",
       },
       {
-        backgroundColor: "pink",
+        backgroundColor: "#ff0000",
       },
     ],
     targetDivsStyle: [
@@ -413,18 +414,18 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "green",
+        backgroundColor: "./assets/images/origin.svg",
       },
       {
-        backgroundColor: "black",
+        backgroundColor: "./assets/images/green.svg",
       },
     ],
     targetDivs: [
       {
-        backgroundColor: "green",
+        backgroundColor: "#ffe2e7",
       },
       {
-        backgroundColor: "black",
+        backgroundColor: "#00ff00",
       },
     ],
     targetDivsStyle: [
@@ -497,18 +498,18 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "white",
+        backgroundColor: "./assets/images/origin.svg",
       },
       {
-        backgroundColor: "blue",
+        backgroundColor: "./assets/images/pinki.svg",
       },
     ],
     targetDivs: [
       {
-        backgroundColor: "white",
+        backgroundColor: "#ffe2e7",
       },
       {
-        backgroundColor: "blue",
+        backgroundColor: "#ff0000",
       },
     ],
     targetDivsStyle: [
@@ -581,18 +582,18 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "red",
+        backgroundColor: "./assets/images/origin.svg",
       },
       {
-        backgroundColor: "yellow",
+        backgroundColor: "./assets/images/green.svg",
       },
     ],
     targetDivs: [
       {
-        backgroundColor: "red",
+        backgroundColor: "#ffe2e7",
       },
       {
-        backgroundColor: "yellow",
+        backgroundColor: "#00ff00",
       },
     ],
     targetDivsStyle: [
@@ -676,18 +677,18 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "green",
+        backgroundColor: "./assets/images/green.svg",
       },
       {
-        backgroundColor: "blue",
+        backgroundColor: "./assets/images/pinki.svg",
       },
     ],
     targetDivs: [
       {
-        backgroundColor: "green",
+        backgroundColor: "#00ff00",
       },
       {
-        backgroundColor: "blue",
+        backgroundColor: "#ff0000",
       },
     ],
     targetDivsStyle: [
@@ -758,18 +759,18 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "yellow",
+        backgroundColor: "./assets/images/origin.svg",
       },
       {
-        backgroundColor: "purple",
+        backgroundColor: "./assets/images/pinki.svg",
       },
     ],
     targetDivs: [
       {
-        backgroundColor: "yellow",
+        backgroundColor: "#ffe2e7",
       },
       {
-        backgroundColor: "purple",
+        backgroundColor: "#ff0000",
       },
     ],
     targetDivsStyle: [
@@ -821,7 +822,7 @@ export const FLEX_CONFIG = {
     ]
   },
 
-  11: {
+  10: {
     texts: [
       {
         text: "დაეხმარეთ ხინკლებს თავიანთ ლილიპადებზე მოხვედრაში. მიუხედავად იმისა, რომ ისინი ახლოს არიან, დასჭირდებათ `flex-direction` და `justify-content` ერთად."
@@ -843,18 +844,18 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "orange",
+        backgroundColor: "./assets/images/origin.svg",
       },
       {
-        backgroundColor: "red",
+        backgroundColor: "./assets/images/green.svg",
       },
     ],
     targetDivs: [
       {
-        backgroundColor: "orange",
+        backgroundColor: "#ffe2e7",
       },
       {
-        backgroundColor: "red",
+        backgroundColor: "#00ff00",
       },
     ],
     targetDivsStyle: [
@@ -906,7 +907,7 @@ export const FLEX_CONFIG = {
       }
     ]
   },
-  10: {
+  11: {
     texts: [
       {
         text: "დაეხმარეთ ხინკლებს თავიანთ ლილიპადებზე მოხვედრაში. მიუხედავად იმისა, რომ ისინი ახლოს არიან, დასჭირდებათ `flex-direction` და `justify-content` ერთად."
@@ -928,18 +929,18 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "orange",
+        backgroundColor: "./assets/images/green.svg",
       },
       {
-        backgroundColor: "red",
+        backgroundColor: "./assets/images/pinki.svg",
       },
     ],
     targetDivs: [
       {
-        backgroundColor: "orange",
+        backgroundColor: "#00ff00",
       },
       {
-        backgroundColor: "red",
+        backgroundColor: "#ff0000",
       },
     ],
     targetDivsStyle: [
@@ -1013,18 +1014,18 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "orange",
+        backgroundColor: "./assets/images/green.svg",
       },
       {
-        backgroundColor: "red",
+        backgroundColor: "./assets/images/pinki.svg",
       },
     ],
     targetDivs: [
       {
-        backgroundColor: "orange",
+        backgroundColor: "#00ff00",
       },
       {
-        backgroundColor: "red",
+        backgroundColor: "#ff0000",
       },
     ],
     targetDivsStyle: [
@@ -1076,98 +1077,4 @@ export const FLEX_CONFIG = {
       }
     ]
   },
-
-  // 11: {
-  //   texts: [
-  //     {
-  //       text: "დაეხმარეთ ხინკლებს თავიანთ ლილიპადებზე მოხვედრაში `flex-direction` და `justify-content`-ის გამოყენებით."
-  //     },
-  //     {
-  //       text: "როდესაც `flex-direction` სვეტია, `justify-content` ვერტიკალურ განლაგებას მართავს, ხოლო `align-items` - ჰორიზონტალურს."
-  //     }
-  //   ],
-  //   answers: [
-  //     {
-  //       answer: "column"
-  //     }
-  //   ]
-  // },
-  // 12: {
-  //   texts: [
-  //     {
-  //       text: "დაეხმარეთ ხინკლებს თავიანთ ლილიპადებზე მოხვედრაში `flex-direction` და `justify-content`-ის გამოყენებით."
-  //     }
-  //   ],
-  //   answers: [
-  //     {
-  //       answer: "column-reverse"
-  //     }
-  //   ]
-  // },
-  // 13: {
-  //   texts: [
-  //     {
-  //       text: "დაეხმარეთ ხინკლებს თავიანთ ლილიპადებზე მოხვედრაში `flex-direction`, `justify-content` და `align-items`-ის გამოყენებით."
-  //     }
-  //   ],
-  //   answers: [
-  //     {
-  //       answer: "center"
-  //     }
-  //   ]
-  // },
-  // 14: {
-  //   texts: [
-  //     {
-  //       text: "ზოგჯერ კონტეინერის რიგისა თუ სვეტის მიმართულების შეცვლა საკმარისი არ არის. ასეთ შემთხვევებში, შეგვიძლია გამოვიყენოთ `order` თვისება ინდივიდუალური ელემენტებისთვის."
-  //     },
-  //     {
-  //       text: "ნაგულისხმევად, ელემენტებს აქვთ მნიშვნელობა `0`, მაგრამ შეგვიძლია დავუწესოთ დადებითი ან უარყოფითი რიცხვები (-2, -1, 0, 1, 2)."
-  //     }
-  //   ],
-  //   answers: [
-  //     {
-  //       answer: "order"
-  //     }
-  //   ]
-  // },
-  // 15: {
-  //   texts: [
-  //     {
-  //       text: "გამოიყენეთ `order` თვისება, რათა წითელი ხინკალი თავის ლილიპადზე გადაადგილდეს."
-  //     }
-  //   ],
-  //   answers: [
-  //     {
-  //       answer: "order"
-  //     }
-  //   ]
-  // },
-  // 16: {
-  //   texts: [
-  //     {
-  //       text: "კიდევ ერთი თვისება, რომელსაც ინდივიდუალურ ელემენტებზე ვიყენებთ, არის `align-self`. ის იღებს იგივე მნიშვნელობებს, რაც `align-items`, მაგრამ მოქმედებს კონკრეტულ ელემენტზე."
-  //     }
-  //   ],
-  //   answers: [
-  //     {
-  //       answer: "align-self"
-  //     }
-  //   ]
-  // },
-  // 24: {
-  //   texts: [
-  //     {
-  //       text: "დაბრუნეთ ხინკლები თავიანთ ლილიპადებზე, გამოყენებით იმ თვისებების, რომლებსაც აქამდე სწავლობდით:"
-  //     },
-  //     {
-  //       text: "`justify-content`, `align-items`, `flex-direction`, `order`, `align-self`, `flex-wrap`, `flex-flow`, `align-content`"
-  //     }
-  //   ],
-  //   answers: [
-  //     {
-  //       answer: "all"
-  //     }
-  //   ]
-  // }
 };
