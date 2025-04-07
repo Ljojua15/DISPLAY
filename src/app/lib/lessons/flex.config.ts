@@ -47,13 +47,13 @@ export const FLEX_CONFIG = {
     ],
     targetDivs: [
       {
-        backgroundColor: "pink",
+        backgroundColor: "#ffe2e7",
       },
       {
-        backgroundColor: "black",
+        backgroundColor: "#00ff00",
       },
       {
-        backgroundColor: "green",
+        backgroundColor: "#ff0000",
       },
     ],
     targetDivsStyle: [
