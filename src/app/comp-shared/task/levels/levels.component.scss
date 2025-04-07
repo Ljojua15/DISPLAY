@@ -7,7 +7,6 @@
 }
 .level{
   width: 100%;
-  border: 0.1px solid yellow;
   @include mixins.flex(center, center, row);
   height: 100%;
   gap:4px;
@@ -16,12 +15,10 @@
     font-weight: bold;
     width: 50%;
     @include mixins.flex(center, center, row);
-    border: 0.1px solid yellow;
     height: 100%;
   }
   &__swiper {
     width: 50%;
-    border: 0.1px solid yellow;
     height: 100%;
     @include mixins.flex(center, center, row);
     &--modal{

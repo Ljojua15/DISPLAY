@@ -1,1 +1,14 @@
-<p>result works!</p>
+<div class="result">
+  <div class="result__place"  [ngStyle]="parseStyle(writtenCode)">
+    <div class="result__place--khinkali"
+         *ngFor="let Movdiv of $movingDivs$()"><img [src]="Movdiv.backgroundColor" alt="*"></div>
+  </div>
+  <div class="result__mission"
+       [ngStyle]="$targetDivsStyle$()">
+
+    <div class="result__mission--dafa"
+         *ngFor="let div of $targetDivs$()"
+         [ngStyle]="{'background-color': div.backgroundColor}"></div>
+  </div>
+
+</div>

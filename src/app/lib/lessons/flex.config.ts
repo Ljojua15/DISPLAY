@@ -36,13 +36,13 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "blue",
+        backgroundColor: "./assets/images/origin.svg",
       },
       {
-        backgroundColor: "blue",
+        backgroundColor: "./assets/images/green.svg",
       },
       {
-        backgroundColor: "red",
+        backgroundColor: "./assets/images/pinki.svg",
       },
     ],
     targetDivs: [
@@ -304,7 +304,6 @@ export const FLEX_CONFIG = {
     ],
     answers: [
       {
-        alignItems: "stretch;",
         justifyContent: "space-between;",
       },
     ],

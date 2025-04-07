@@ -10,7 +10,7 @@
   margin: auto;
   @include mixins.flex(center,center,row);
   &__lines{
-    min-width: 4%;
+    max-width: 30px;
     width: 100%;
     height: 100%;
     background-color: #6d6d6d;
@@ -27,7 +27,7 @@
     }
   }
   &__write-place{
-    width: 90%;
+    width: 100%;
     height: 100%;
     background-color: #e0e0e0;
     &--btn{
