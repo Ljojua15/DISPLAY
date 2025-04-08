@@ -3,7 +3,7 @@
   <div class="level__swiper">
     <div class="level__swiper--left"
          [class.level__swiper--opacity]="$currentLevel$() === 1"
-         (click)="changeLevel('prev')"> < </div>
+         (click)="changeLevel('prev')"> <img src="./assets/images/arrowsss.png" alt="*" > </div>
     <div class="level__swiper--content" (click)="openLevelPopup()">
       <div class="level__swiper--modal" *ngIf="$isLevelOpens$()">
         <display-levels-modal />
@@ -14,6 +14,6 @@
     </div>
     <div class="level__swiper--right"
          [class.level__swiper--opacity]="$currentLevel$() === $quantityOfLessons$()"
-         (click)="changeLevel('next')"> ></div>
+         (click)="changeLevel('next')"><img src="./assets/images/arrowsss.png" alt="*"></div>
   </div>
 </div>

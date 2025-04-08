@@ -573,6 +573,7 @@ export const FLEX_CONFIG = {
       {
         alignItems: "center;",
         justifyContent: "space-around;",
+        flexDirection: "column",
       },
     ],
     heights: [
@@ -587,10 +588,34 @@ export const FLEX_CONFIG = {
       {
         backgroundColor: "./assets/images/green.svg",
       },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
     ],
     targetDivs: [
       {
         backgroundColor: "#ffe2e7",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
       },
       {
         backgroundColor: "#00ff00",
@@ -600,6 +625,7 @@ export const FLEX_CONFIG = {
       {
         alignItems: "center",
         justifyContent: "space-around",
+        flexDirection: "column",
       },
     ]
     ,
