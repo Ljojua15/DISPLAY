@@ -66,4 +66,7 @@
       }
     }
   }
+  @include mixins.mobile(){
+    height: 40px;
+  }
 }
