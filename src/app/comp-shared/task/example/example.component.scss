@@ -1,5 +1,7 @@
 @use '@/assets/styles/mixins.scss';
-
+.colored-title{
+  color: green !important;
+}
 .example{
   width: calc(100% - 10px);
   height: 38vh;
@@ -16,7 +18,20 @@
       gap: 10px;
       li{
         font-family: sans-serif;
+        line-height: 1.5;
       }
     }
   }
+}
+
+::ng-deep span b {
+  color: #ffe2e7;
+  font-weight: bold;
+}
+::ng-deep span strong {
+  color: green;
+  //cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
 }

@@ -2,31 +2,30 @@ export const FLEX_CONFIG = {
   1: {
     texts: [
       {
-        text: "მოგესალმებით ხინალი ფლექსბოქსში, თამაშში, სადაც ხინკლებს და მათ მეგობრებს CSS კოდის დაწერით ეხმარებით! გადაადგილეთ ეს ხინკალი მარჯვენა მხარეს მდებარე ლილიპადზე `justify-content` თვისების გამოყენებით, რომელიც აწყობს ელემენტებს ჰორიზონტალურად და იღებს შემდეგ მნიშვნელობებს:"
+        text: "ეს არის თამაში, სადაც უნდა დაეხმარო ხინკალებს CSS კოდის წერით! ამ ტურში შენი ამოცანაა, გადადო ხინკალი ლანგარზე მარჯვნივ, <strong>justify-content</strong> თვისების გამოყენებით."
       },
       {
-        text: "flex-start: ელემენტები განლაგებულია კონტეინერის მარცხენა მხარეს."
+        text: "<strong>justify-content</strong> ადგენს, როგორ განლაგდებიან ელემენტები ჰორიზონტალურად კონტეინერში. მას აქვს შემდეგი მნიშვნელობები:"
       },
       {
-        text: "flex-end: ელემენტები განლაგებულია კონტეინერის მარჯვენა მხარეს."
+        text: "<b>flex-start</b> – ხინკლები მიიწევენ მარცხენა მხარეს"
       },
       {
-        text: "center: ელემენტები განლაგებულია კონტეინერის ცენტრში."
+        text: "<b>flex-end</b> – ხინკლები მიიწევენ მარჯვენა მხარეს"
       },
       {
-        text: "space-between: ელემენტები განლაგებულია ერთმანეთისგან თანაბარი დაშორებით."
+        text: "<b>center</b> – ხინკლები იკრიბებიან კონტეინერის შუაში"
       },
       {
-        text: "space-around: ელემენტები განლაგებულია ერთმანეთის გარშემო თანაბარი დაშორებით."
+        text: "<b>space-between</b> – ხინკლები ერთნაირად ნაწილდებიან, ზუსტად ერთი და იგივე დაშორებით"
       },
       {
-        text: "მაგალითად, `justify-content: flex-end;` გადაადგილებს ხინკალს მარჯვენა მხარეს."
+        text: "<b>space-around</b> – ხინკლებს შორის თანაბარი მანძილია, მაგრამ გარედანაც აქვთ სიცარიელე"
       }
     ],
     answers: [
       {
-        alignItems: "center;",
-        justifyContent: "space-between;",
+        justifyContent: "flex-end;",
       },
     ],
     heights: [
@@ -37,29 +36,16 @@ export const FLEX_CONFIG = {
     movingDivs: [
       {
         backgroundColor: "./assets/images/origin.svg",
-      },
-      {
-        backgroundColor: "./assets/images/green.svg",
-      },
-      {
-        backgroundColor: "./assets/images/pinki.svg",
-      },
+      }
     ],
     targetDivs: [
       {
         backgroundColor: "#ffe2e7",
       },
-      {
-        backgroundColor: "#00ff00",
-      },
-      {
-        backgroundColor: "#ff0000",
-      },
     ],
     targetDivsStyle: [
       {
-        alignItems: "center",
-        justifyContent: "space-between",
+        justifyContent: "flex-end",
       },
     ],
     codePlace: [
@@ -108,28 +94,27 @@ export const FLEX_CONFIG = {
   2: {
     texts: [
       {
-        text: "გამოიყენეთ `justify-content` კიდევ ერთხელ, რათა დაეხმაროთ ამ ხინკლებს, მიაღწიონ თავიანთ ლილიპადებს. გახსოვდეთ, რომ ეს CSS თვისება აწყობს ელემენტებს ჰორიზონტალურად და იღებს შემდეგ მნიშვნელობებს:"
+        text: "გამოყენე <strong>justify-content</strong> კიდევ ერთხელ, რათა ხინკლები მიიყვანო მათ ლანგრებზე. გაიხსენე, რომ ეს CSS თვისება ასწორებს ელემენტებს ჰორიზონტალურად და იღებს შემდეგ მნიშვნელობებს:"
       },
       {
-        text: "flex-start: ელემენტები განლაგებულია კონტეინერის მარცხენა მხარეს."
+        text: "<b>flex-start</b> – ხინკლები მიიწევენ მარცხენა მხარეს"
       },
       {
-        text: "flex-end: ელემენტები განლაგებულია კონტეინერის მარჯვენა მხარეს."
+        text: "<b>flex-end</b> – ხინკლები მიიწევენ მარჯვენა მხარეს"
       },
       {
-        text: "center: ელემენტები განლაგებულია კონტეინერის ცენტრში."
+        text: "<b>center</b> – ხინკლები იკრიბებიან კონტეინერის შუაში"
       },
       {
-        text: "space-between: ელემენტები განლაგებულია ერთმანეთისგან თანაბარი დაშორებით."
+        text: "<b>space-between</b> – ხინკლები ერთნაირად ნაწილდებიან, ზუსტად ერთი და იგივე დაშორებით"
       },
       {
-        text: "space-around: ელემენტები განლაგებულია ერთმანეთის გარშემო თანაბარი დაშორებით."
+        text: "<b>space-around</b> – ხინკლებს შორის თანაბარი მანძილია, მაგრამ გარედანაც აქვთ სიცარიელე"
       }
     ],
     answers: [
       {
-        alignItems: "center;",
-        justifyContent: "space-around;",
+        justifyContent: "center;",
       },
     ],
     heights: [
@@ -155,8 +140,7 @@ export const FLEX_CONFIG = {
     ],
     targetDivsStyle: [
       {
-        alignItems: "center",
-        justifyContent: "space-around",
+        justifyContent: "center",
       },
     ],
     codePlace: [
@@ -202,20 +186,18 @@ export const FLEX_CONFIG = {
       }
     ]
   },
-
   3: {
     texts: [
       {
-        text: "დაეხმარეთ სამივე ხინკალს, რომ მიაღწიონ თავიანთ ლილიპადებს, მხოლოდ `justify-content` თვისების გამოყენებით. ამჯერად, ლილიპადებს გარშემო საკმაოდ ბევრი სივრცე აქვთ."
+        text: "დაეხმარე სამივე ხინკალს, რომ მიაღწიონ თავიანთ ლანგრებს მხოლოდ <strong>justify-content</strong> თვისების გამოყენებით. ამჯერად, ლანგრები განლაგებულია დიდი დაშორებით – გარშემო ბევრი სივრცეა."
       },
-      {
-        text: "თუ დაგავიწყდათ, რომელი მნიშვნელობები აქვს ამ თვისებას, შეგიძლიათ დააწკაპუნოთ სახელზე, რათა ნახოთ ისინი. სცადეთ `justify-content`-ზე დაჭერა."
-      }
+      // {
+      //   text: "თუ რომელიმე თვისების მნიშვნელობები დაგავიწყდა, შეგიძლია დააწკაპო სახელზე და ნახო ისინი. სცადე დაკლიკება <strong>justify-content</strong>-ზე."
+      // }
     ],
     answers: [
       {
-        alignItems: "flex-start;",
-        justifyContent: "space-between;",
+        justifyContent: "space-around;",
       },
     ],
     heights: [
@@ -248,8 +230,7 @@ export const FLEX_CONFIG = {
     ],
     targetDivsStyle: [
       {
-        alignItems: "flex-start",
-        justifyContent: "space-between",
+        justifyContent: "space-around",
       },
     ]
     ,
@@ -296,11 +277,13 @@ export const FLEX_CONFIG = {
       }
     ]
   },
-
   4: {
     texts: [
       {
-        text: "ახლა ლილიპადები კიდეებზე ნაპირზე აღმოჩნდნენ, რის შედეგადაც მათ შორის სივრცე გაიზარდა. გამოიყენეთ `justify-content`. ამჯერად, ლილიპადებს შორის თანაბარი სივრცეა."
+        text: "ამჯერად, ლანგრები მარჯვენა და მარცხენა კიდეებზე გაფართოვდნენ და ბოლოებში არიან, რაც გამოიწვია მათ შორის დიდი სივრცის გაჩენით. გამოიყენე <strong>justify-content</strong> თვისება, რათა იპოვო სწორი განლაგება."
+      },
+      {
+        text: "ამჯერად, ლანგრებს შორის თანაბარი მანძილია."
       }
     ],
     answers: [
@@ -315,23 +298,29 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "./assets/images/green.svg",
+        backgroundColor: "./assets/images/origin.svg",
       },
       {
         backgroundColor: "./assets/images/pinki.svg",
       },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
     ],
     targetDivs: [
       {
-        backgroundColor: "#00ff00",
+        backgroundColor: "#ffe2e7",
       },
+
       {
         backgroundColor: "#ff0000",
+      },
+      {
+        backgroundColor: "#00ff00",
       },
     ],
     targetDivsStyle: [
       {
-        alignItems: "stretch",
         justifyContent: "space-between",
       },
     ]
@@ -379,32 +368,30 @@ export const FLEX_CONFIG = {
       }
     ]
   },
-
   5: {
     texts: [
       {
-        text: "გამოიყენეთ `align-items`, რათა დაეხმაროთ ხინკლებს, რომ პონდის ფსკერზე ჩავიდნენ. ეს CSS თვისება აწყობს ელემენტებს ვერტიკალურად და იღებს შემდეგ მნიშვნელობებს:"
+        text: "ახლა გამოიყენე <strong>align-items</strong>, რათა დაეხმარო ხინკლებს ქვევით ჩასვლაში. ეს CSS თვისება ასწორებს ელემენტებს ვერტიკალურად და იღებს შემდეგ მნიშვნელობებს:"
       },
       {
-        text: "flex-start: ელემენტები განლაგებულია კონტეინერის ზედა მხარეს."
+        text: "<b>flex-start</b> – ელემენტები განლაგდება კონტეინერის ზედა ნაწილში"
       },
       {
-        text: "flex-end: ელემენტები განლაგებულია კონტეინერის ქვედა მხარეს."
+        text: "<b>flex-end</b> – ელემენტები განლაგდება კონტეინერის ქვედა ნაწილში"
       },
       {
-        text: "center: ელემენტები განლაგებულია კონტეინერის ვერტიკალურ ცენტრში."
+        text: "<b>center</b> – ელემენტები განლაგდება კონტეინერის ვერტიკალურ ცენტრში"
       },
       {
-        text: "baseline: ელემენტები განლაგებულია მათი ტექსტის საბაზისო ხაზის მიხედვით."
+        text: "<b>baseline</b> – ელემენტები განლაგდება კონტეინერის ბასეიდან"
       },
       {
-        text: "stretch: ელემენტები გაწელილია, რომ მოერგოს კონტეინერს."
+        text: "<b>stretch</b> – ელემენტები იზომება კონტეინერის ზომებზე"
       }
     ],
     answers: [
       {
         alignItems: "flex-end;",
-        justifyContent: "space-around;",
       },
     ],
     heights: [
@@ -417,12 +404,186 @@ export const FLEX_CONFIG = {
         backgroundColor: "./assets/images/origin.svg",
       },
       {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
         backgroundColor: "./assets/images/green.svg",
       },
     ],
     targetDivs: [
       {
         backgroundColor: "#ffe2e7",
+      },
+
+      {
+        backgroundColor: "#ff0000",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+    ],
+    targetDivsStyle: [
+      {
+        alignItems: "flex-end",
+        justifyContent: "flex-start",
+      },
+    ]
+    ,
+    codePlace: [
+      {
+        id: 1,
+        text: "#khinkali {",
+      },
+      {
+        id: 2,
+        text: "display: flex;",
+      },
+      {
+        id: 3,
+        text: "area",
+      },
+      {
+        id: 4,
+        text: "",
+      },
+      {
+        id: 5,
+        text: "",
+      },
+      {
+        id: 6,
+        text: "}",
+      },
+      {
+        id: 7,
+        text: "",
+      },
+      {
+        id: 8,
+        text: "",
+      },
+      {
+        id: 9,
+        text: "",
+      },
+      {
+        id: 10,
+        text: "",
+      }
+    ]
+  },
+  6: {
+      texts: [
+        {
+          text: "გამოიყენე <strong>justify-content</strong> და <strong>align-items</strong> კომბინაციაში, რათა მოიყვანო ხინკალი კონტეინერის ცენტრში."
+        }
+      ],
+    answers: [
+      {
+        alignItems: "center;",
+        justifyContent: "center;",
+      },
+    ],
+    heights: [
+      {
+        height: '80px'
+      }
+    ],
+    movingDivs: [
+      {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+    ],
+    targetDivs: [
+      {
+        backgroundColor: "#ff0000",
+      },
+    ],
+    targetDivsStyle: [
+      {
+        alignItems: "center",
+        justifyContent: "center",
+      },
+    ]
+    ,
+    codePlace: [
+      {
+        id: 1,
+        text: "#khinkali {",
+      },
+      {
+        id: 2,
+        text: "display: flex;",
+      },
+      {
+        id: 3,
+        text: "area",
+      },
+      {
+        id: 4,
+        text: "",
+      },
+      {
+        id: 5,
+        text: "",
+      },
+      {
+        id: 6,
+        text: "}",
+      },
+      {
+        id: 7,
+        text: "",
+      },
+      {
+        id: 8,
+        text: "",
+      },
+      {
+        id: 9,
+        text: "",
+      },
+      {
+        id: 10,
+        text: "",
+      }
+    ]
+  },
+  7: {
+    texts: [
+      {
+        text: "ხინკლებს ისევ სჭირდებათ მაგიდის გადაკვეთა, ამჯერად ლანგრებზე, რომელთა გარშემოც ბევრი სივრცეა. გამოიყენე <strong>justify-content</strong> და <strong>align-items</strong> კომბინაცია."
+      }
+    ],
+    answers: [
+      {
+        alignItems: "flex-end;",
+        justifyContent: "space-around;",
+      },
+    ],
+    heights: [
+      {
+        height: '50px'
+      }
+    ],
+    movingDivs: [
+      {
+        backgroundColor: "./assets/images/origin.svg",
+      },
+      {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+    ],
+    targetDivs: [
+      {
+        backgroundColor: "#ffe2e7",
+      },
+
+      {
+        backgroundColor: "#ff0000",
       },
       {
         backgroundColor: "#00ff00",
@@ -478,157 +639,63 @@ export const FLEX_CONFIG = {
       }
     ]
   },
-
-  6: {
+  8: {
     texts: [
       {
-        text: "გადაიყვანეთ ხინკალი პონდის ცენტრში `justify-content` და `align-items` თვისებების კომბინაციის გამოყენებით."
+        text: "ხინკლებს სჭირდებათ მათი ლანგრებთან შესაბამისი რიგის აღება, გამოიყენეთ <strong>flex-direction</strong>. ეს CSS თვისება განსაზღვრავს, თუ როგორ განლაგდებიან ელემენტები კონტეინერში, და აქვს შემდეგი მნიშვნელობები:"
+      },
+      {
+        text: "<b>row</b> – ელემენტები განლაგდებიან ტექსტის მიმართულებით"
+      },
+      {
+        text: "<b>row-reverse</b> – ელემენტები განლაგდებიან ტექსტის საწინააღმდეგო მიმართულებით"
+      },
+      {
+        text: "<b>column</b> – ელემენტები განლაგდებიან ზედა მხრიდან ქვემოთ"
+      },
+      {
+        text: "<b>column-reverse</b> – ელემენტები განლაგდებიან ქვედა მხრიდან ზემოთ"
       }
     ],
     answers: [
       {
-        alignItems: "center;",
-        justifyContent: "center;",
+        flexDirection: "row-reverse;",
       },
     ],
     heights: [
       {
-        height: '80px'
+        height: '60px'
       }
     ],
     movingDivs: [
+
       {
         backgroundColor: "./assets/images/origin.svg",
       },
       {
         backgroundColor: "./assets/images/pinki.svg",
       },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
     ],
     targetDivs: [
       {
-        backgroundColor: "#ffe2e7",
+        backgroundColor: "#00ff00",
       },
       {
         backgroundColor: "#ff0000",
       },
-    ],
-    targetDivsStyle: [
-      {
-        alignItems: "center",
-        justifyContent: "center",
-      },
-    ]
-    ,
-    codePlace: [
-      {
-        id: 1,
-        text: "#khinkali {",
-      },
-      {
-        id: 2,
-        text: "display: flex;",
-      },
-      {
-        id: 3,
-        text: "area",
-      },
-      {
-        id: 4,
-        text: "",
-      },
-      {
-        id: 5,
-        text: "",
-      },
-      {
-        id: 6,
-        text: "}",
-      },
-      {
-        id: 7,
-        text: "",
-      },
-      {
-        id: 8,
-        text: "",
-      },
-      {
-        id: 9,
-        text: "",
-      },
-      {
-        id: 10,
-        text: "",
-      }
-    ]
-  },
-
-  7: {
-    texts: [
-      {
-        text: "ხინკლებს ისევ პონდის გადაკვეთა სჭირდებათ, ამჯერად ლილიპადების ირგვლივ საკმარისი სივრცით. გამოიყენეთ `justify-content` და `align-items` ერთად."
-      }
-    ],
-    answers: [
-      {
-        alignItems: "center;",
-        justifyContent: "space-around;",
-        flexDirection: "column",
-      },
-    ],
-    heights: [
-      {
-        height: '50px'
-      }
-    ],
-    movingDivs: [
-      {
-        backgroundColor: "./assets/images/origin.svg",
-      },
-      {
-        backgroundColor: "./assets/images/green.svg",
-      },
-      {
-        backgroundColor: "./assets/images/green.svg",
-      },
-      {
-        backgroundColor: "./assets/images/green.svg",
-      },
-      {
-        backgroundColor: "./assets/images/green.svg",
-      },
-      {
-        backgroundColor: "./assets/images/green.svg",
-      },
-    ],
-    targetDivs: [
       {
         backgroundColor: "#ffe2e7",
       },
-      {
-        backgroundColor: "#00ff00",
-      },
-      {
-        backgroundColor: "#00ff00",
-      },
-      {
-        backgroundColor: "#00ff00",
-      },
-      {
-        backgroundColor: "#00ff00",
-      },
-      {
-        backgroundColor: "#00ff00",
-      },
     ],
     targetDivsStyle: [
       {
-        alignItems: "center",
-        justifyContent: "space-around",
-        flexDirection: "column",
+        flexDirection: "row",
+        justifyContent: "flex-end",
       },
-    ]
-    ,
+    ],
     codePlace: [
       {
         id: 1,
@@ -672,28 +739,27 @@ export const FLEX_CONFIG = {
       }
     ]
   },
-
-  8: {
+  9: {
     texts: [
       {
-        text: "ხინკლებს სჭირდებათ იმავე რიგში განლაგება, როგორც მათი ლილიპადებია. გამოიყენეთ `flex-direction`. ეს თვისება განსაზღვრავს ელემენტების განლაგების მიმართულებას და იღებს შემდეგ მნიშვნელობებს:"
+        text: "ხინკლებს დაეხმარე, რომ მოძებნონ მათი ლანგრები კონტეინერში <strong>flex-direction</strong>-ის გამოყენებით. ეს CSS თვისება განსაზღვრავს, როგორ განლაგდებიან ელემენტები კონტეინერში, და იღებს შემდეგ მნიშვნელობებს:"
       },
       {
-        text: "row: ელემენტები განლაგებულია ტექსტის მიმართულების მიხედვით."
+        text: "<b>row</b>: ელემენტები განლაგებულია ტექსტის მიმართულების მიხედვით."
       },
       {
-        text: "row-reverse: ელემენტები განლაგებულია ტექსტის საპირისპირო მიმართულებით."
+        text: "<b>row-reverse</b>: ელემენტები განლაგებულია ტექსტის საპირისპირო მიმართულებით."
       },
       {
-        text: "column: ელემენტები განლაგებულია ზემოდან ქვემოთ."
+        text: "<b>column</b>: ელემენტები განლაგებულია ზემოდან ქვემოთ."
       },
       {
-        text: "column-reverse: ელემენტები განლაგებულია ქვემოდან ზემოთ."
+        text: "<b>column-reverse</b>: ელემენტები განლაგებულია ქვემოდან ზემოთ."
       }
     ],
     answers: [
       {
-        flexDirection: "row;",
+        flexDirection: "column",
       },
     ],
     heights: [
@@ -703,92 +769,13 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "./assets/images/green.svg",
-      },
-      {
-        backgroundColor: "./assets/images/pinki.svg",
-      },
-    ],
-    targetDivs: [
-      {
-        backgroundColor: "#00ff00",
-      },
-      {
-        backgroundColor: "#ff0000",
-      },
-    ],
-    targetDivsStyle: [
-      {
-        flexDirection: "row",
-      },
-    ],
-    codePlace: [
-      {
-        id: 1,
-        text: "#khinkali {",
-      },
-      {
-        id: 2,
-        text: "display: flex;",
-      },
-      {
-        id: 3,
-        text: "area",
-      },
-      {
-        id: 4,
-        text: "",
-      },
-      {
-        id: 5,
-        text: "",
-      },
-      {
-        id: 6,
-        text: "}",
-      },
-      {
-        id: 7,
-        text: "",
-      },
-      {
-        id: 8,
-        text: "",
-      },
-      {
-        id: 9,
-        text: "",
-      },
-      {
-        id: 10,
-        text: "",
-      }
-    ]
-  },
-
-  9: {
-    texts: [
-      {
-        text: "დაეხმარეთ ხინკლებს თავიანთი ლილიპადების სვეტებში მოხვედრაში `flex-direction`-ის გამოყენებით."
-      }
-    ],
-    answers: [
-      {
-        flexDirection: "column;",
-        justifyContent: "center"
-      },
-    ],
-    heights: [
-      {
-        height: '80px'
-      }
-    ],
-    movingDivs: [
-      {
         backgroundColor: "./assets/images/origin.svg",
       },
       {
         backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
       },
     ],
     targetDivs: [
@@ -798,9 +785,13 @@ export const FLEX_CONFIG = {
       {
         backgroundColor: "#ff0000",
       },
+      {
+        backgroundColor: "#00ff00",
+      },
     ],
     targetDivsStyle: [
       {
+        justifyContent: "flex-start",
         flexDirection: "column",
       },
     ],
@@ -847,20 +838,19 @@ export const FLEX_CONFIG = {
       }
     ]
   },
-
   10: {
     texts: [
       {
-        text: "დაეხმარეთ ხინკლებს თავიანთ ლილიპადებზე მოხვედრაში. მიუხედავად იმისა, რომ ისინი ახლოს არიან, დასჭირდებათ `flex-direction` და `justify-content` ერთად."
+        text: "დაეხმარე ხინკლებს თავიანთ ლანგრებთან მისვლაში. მიუხედავად იმისა, რომ ისინი ახლოს ჩანან, საჭიროა როგორც <strong>flex-direction</strong>, ისე <strong>justify-content</strong> მათი სწორად განლაგებისთვის."
       },
       {
-        text: "გაითვალისწინეთ, რომ თუ მიმართულებას შეცვლით `row-reverse` ან `column-reverse`-ზე, საწყისი და ბოლო პოზიციებიც შეიცვლება."
+        text: "გაითვალისწინე, რომ როცა მიმართულებას შეაბრუნებ <b>row-reverse</b> ან <b>column-reverse</b> მნიშვნელობებით, <b>start</b> და <b>end</b> პოზიციებიც იცვლება."
       }
     ],
     answers: [
       {
-        flexDirection: "row-reverse;",
-        justifyContent: "space-between;",
+        flexDirection: "row-reverse",
+        justifyContent: "flex-end",
       },
     ],
     heights: [
@@ -873,12 +863,19 @@ export const FLEX_CONFIG = {
         backgroundColor: "./assets/images/origin.svg",
       },
       {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
         backgroundColor: "./assets/images/green.svg",
       },
     ],
     targetDivs: [
       {
         backgroundColor: "#ffe2e7",
+      },
+
+      {
+        backgroundColor: "#ff0000",
       },
       {
         backgroundColor: "#00ff00",
@@ -887,7 +884,7 @@ export const FLEX_CONFIG = {
     targetDivsStyle: [
       {
         flexDirection: "row-reverse",
-        justifyContent: "space-between",
+        justifyContent: "flex-end",
       },
     ],
     codePlace: [
@@ -936,16 +933,16 @@ export const FLEX_CONFIG = {
   11: {
     texts: [
       {
-        text: "დაეხმარეთ ხინკლებს თავიანთ ლილიპადებზე მოხვედრაში. მიუხედავად იმისა, რომ ისინი ახლოს არიან, დასჭირდებათ `flex-direction` და `justify-content` ერთად."
+        text: "დაეხმარე ხინკლებს თავიანთ ლანგრებთან მისვლაში <strong>flex-direction</strong>-ისა და <strong>justify-content</strong>-ის გამოყენებით."
       },
       {
-        text: "გაითვალისწინეთ, რომ თუ მიმართულებას შეცვლით `row-reverse` ან `column-reverse`-ზე, საწყისი და ბოლო პოზიციებიც შეიცვლება."
+        text: "გაითვალისწინე, რომ როცა <b>flex-direction</b> სვეტად (column) არის დაყენებული, <b>justify-content</b> ვერტიკალურად მოქმედებს, ხოლო <b>align-items</b> – ჰორიზონტალურად."
       }
     ],
     answers: [
       {
-        flexDirection: "row-reverse;",
-        justifyContent: "space-between;",
+        flexDirection: "column",
+        justifyContent: "flex-end",
       },
     ],
     heights: [
@@ -955,24 +952,31 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "./assets/images/green.svg",
+        backgroundColor: "./assets/images/origin.svg",
       },
       {
         backgroundColor: "./assets/images/pinki.svg",
       },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
     ],
     targetDivs: [
       {
-        backgroundColor: "#00ff00",
+        backgroundColor: "#ffe2e7",
       },
+
       {
         backgroundColor: "#ff0000",
+      },
+      {
+        backgroundColor: "#00ff00",
       },
     ],
     targetDivsStyle: [
       {
-        flexDirection: "row-reverse",
-        justifyContent: "space-between",
+        flexDirection: "column",
+        justifyContent: "flex-end",
       },
     ],
     codePlace: [
@@ -1021,15 +1025,12 @@ export const FLEX_CONFIG = {
   12: {
     texts: [
       {
-        text: "დაეხმარეთ ხინკლებს თავიანთ ლილიპადებზე მოხვედრაში. მიუხედავად იმისა, რომ ისინი ახლოს არიან, დასჭირდებათ `flex-direction` და `justify-content` ერთად."
-      },
-      {
-        text: "გაითვალისწინეთ, რომ თუ მიმართულებას შეცვლით `row-reverse` ან `column-reverse`-ზე, საწყისი და ბოლო პოზიციებიც შეიცვლება."
+        text: "დაეხმარეთ ხინკლებს თავიანთ ლანგრებზე მოხვედრაში <strong>flex-direction</strong> და <strong>justify-content</strong> თვისებების გამოყენებით."
       }
     ],
     answers: [
       {
-        flexDirection: "row-reverse;",
+        flexDirection: "column;",
         justifyContent: "space-between;",
       },
     ],
@@ -1040,23 +1041,30 @@ export const FLEX_CONFIG = {
     ],
     movingDivs: [
       {
-        backgroundColor: "./assets/images/green.svg",
+        backgroundColor: "./assets/images/origin.svg",
       },
       {
         backgroundColor: "./assets/images/pinki.svg",
       },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
     ],
     targetDivs: [
       {
-        backgroundColor: "#00ff00",
+        backgroundColor: "#ffe2e7",
       },
+
       {
         backgroundColor: "#ff0000",
+      },
+      {
+        backgroundColor: "#00ff00",
       },
     ],
     targetDivsStyle: [
       {
-        flexDirection: "row-reverse",
+        flexDirection: "column",
         justifyContent: "space-between",
       },
     ],

@@ -2,7 +2,7 @@
   <div>
     <ul>
       <li *ngFor="let item of $changedText$()">
-        {{ item.text }}
+        <span [innerHTML]="item.text"></span>
       </li>
     </ul>
   </div>
