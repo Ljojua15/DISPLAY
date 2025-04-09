@@ -1337,7 +1337,7 @@ export const FLEX_CONFIG = {
   15: {
     texts: [
       {
-        text: "დაეხმარე ხინკლების არმიას სამ მოწესრიგებულ სვეტად ჩამწკრივებაში <strong>flex-direction</strong> და <strong>flex-wrap</strong> თვისებების კომბინაციის გამოყენებით."
+        text: "დაეხმარე ხინკლების არმიას სამ მოწესრიგებულ სვეტად ჩამწკრივებაში <strong>flex-direction</strong>, <strong>justify-content</strong> და <strong>flex-wrap</strong> თვისებების კომბინაციის გამოყენებით."
       }
     ],
     answers: [

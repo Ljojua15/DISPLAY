@@ -35,6 +35,7 @@ export class CoddingComponent implements OnInit {
   })
 
   public enterCode(direction: 'done'){
+  if(  this.flexService.$currentLevel$() < this.flexService.flexConfigLength){
     const value = this.$code$().value
 
     if (value) {
@@ -46,4 +47,6 @@ export class CoddingComponent implements OnInit {
 
     this.coddingService.enterMyCode(direction);
   }
+  }
+
 }

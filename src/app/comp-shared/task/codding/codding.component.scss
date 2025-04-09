@@ -33,7 +33,7 @@
     &--btn{
       position: absolute;
       border: none;
-      width: 16%;
+      width: 24%;
       height: 10%;
       //font-family: variables.$second-font;
       @include mixins.flex(center,center,column);
