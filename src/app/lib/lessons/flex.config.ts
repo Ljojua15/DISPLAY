@@ -1111,4 +1111,1283 @@ export const FLEX_CONFIG = {
       }
     ]
   },
+  13: {
+    texts: [
+      {
+        text: "დაეხმარეთ ხინკლებს თავიანთ ლანგრებზე მოხვედრაში <strong>flex-direction</strong>, <strong>justify-content</strong> და <strong>align-items</strong> თვისებების გამოყენებით."
+      }
+    ],
+    answers: [
+      {
+        flexDirection: "row-reverse",
+        justifyContent: "center",
+        alignItems: "flex-end",
+      },
+    ],
+    heights: [
+      {
+        height: '90px'
+      }
+    ],
+    movingDivs: [
+      {
+        backgroundColor: "./assets/images/origin.svg",
+      },
+      {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+    ],
+    targetDivs: [
+      {
+        backgroundColor: "#ffe2e7",
+      },
+
+      {
+        backgroundColor: "#ff0000",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+    ],
+    targetDivsStyle: [
+      {
+        flexDirection: "row-reverse",
+        justifyContent: "center",
+        alignItems: "flex-end",
+      },
+    ],
+    codePlace: [
+      {
+        id: 1,
+        text: "#khinkali {",
+      },
+      {
+        id: 2,
+        text: "display: flex;",
+      },
+      {
+        id: 3,
+        text: "area",
+      },
+      {
+        id: 4,
+        text: "",
+      },
+      {
+        id: 5,
+        text: "",
+      },
+      {
+        id: 6,
+        text: "}",
+      },
+      {
+        id: 7,
+        text: "",
+      },
+      {
+        id: 8,
+        text: "",
+      },
+      {
+        id: 9,
+        text: "",
+      },
+      {
+        id: 10,
+        text: "",
+      }
+    ]
+  },
+  14: {
+    texts: [
+      {
+        text: "ოჰ, არა! ყველა ხინკალი ერთ მწკრივ ლანგრებზე არის ჩაყუჟული. გაანაწილე ისინი <strong>flex-wrap</strong> თვისების გამოყენებით."
+      },
+      {
+        text: "<code>flex-wrap</code> იღებს შემდეგ მნიშვნელობებს:"
+      },
+      {
+        text: "<strong>nowrap</strong>: ყველა ელემენტი თავსდება ერთ ხაზზე."
+      },
+      {
+        text: "<strong>wrap</strong>: ელემენტები იტენება რამდენიმე ხაზზე საჭიროების მიხედვით."
+      },
+      {
+        text: "<strong>wrap-reverse</strong>: ელემენტები იტენება რამდენიმე ხაზზე უკუღმა მიმართულებით."
+      }
+    ],
+    answers: [
+      {
+        flexWrap:'wrap',
+        justifyContent:'center',
+      },
+    ],
+    heights: [
+      {
+        height: '90px'
+      }
+    ],
+    movingDivs: [
+      {
+        backgroundColor: "./assets/images/origin.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+
+
+    ],
+    targetDivs: [
+      {
+        backgroundColor: "#ffe2e7",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#ff0000",
+      },
+      {
+        backgroundColor: "#ff0000",
+      },
+
+    ],
+    targetDivsStyle: [
+      {
+        flexWrap:'wrap'
+      },
+    ],
+    codePlace: [
+      {
+        id: 1,
+        text: "#khinkali {",
+      },
+      {
+        id: 2,
+        text: "display: flex;",
+      },
+      {
+        id: 3,
+        text: "area",
+      },
+      {
+        id: 4,
+        text: "",
+      },
+      {
+        id: 5,
+        text: "",
+      },
+      {
+        id: 6,
+        text: "}",
+      },
+      {
+        id: 7,
+        text: "",
+      },
+      {
+        id: 8,
+        text: "",
+      },
+      {
+        id: 9,
+        text: "",
+      },
+      {
+        id: 10,
+        text: "",
+      }
+    ]
+  },
+  15: {
+    texts: [
+      {
+        text: "დაეხმარე ხინკლების არმიას სამ მოწესრიგებულ სვეტად ჩამწკრივებაში <strong>flex-direction</strong> და <strong>flex-wrap</strong> თვისებების კომბინაციის გამოყენებით."
+      }
+    ],
+    answers: [
+      {
+        flexDirection: "column",
+        justifyContent: "center",
+        flexWrap: 'wrap',
+      },
+    ],
+    heights: [
+      {
+        height: '90px'
+      }
+    ],
+    movingDivs: [
+      {
+        backgroundColor: "./assets/images/origin.svg",
+      },
+      {
+        backgroundColor: "./assets/images/origin.svg",
+      },
+      {
+        backgroundColor: "./assets/images/origin.svg",
+      },
+      {
+        backgroundColor: "./assets/images/origin.svg",
+      },
+      {
+        backgroundColor: "./assets/images/origin.svg",
+      },
+      {
+        backgroundColor: "./assets/images/origin.svg",
+      },
+      {
+        backgroundColor: "./assets/images/origin.svg",
+      },
+      {
+        backgroundColor: "./assets/images/origin.svg",
+      },
+      {
+        backgroundColor: "./assets/images/origin.svg",
+      },
+
+      {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
+        backgroundColor: "./assets/images/pinki.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+      {
+        backgroundColor: "./assets/images/green.svg",
+      },
+
+    ],
+    targetDivs: [
+      {
+        backgroundColor: "#ffe2e7",
+      },
+      {
+        backgroundColor: "#ffe2e7",
+      },
+      {
+        backgroundColor: "#ffe2e7",
+      },
+      {
+        backgroundColor: "#ffe2e7",
+      },
+      {
+        backgroundColor: "#ffe2e7",
+      },
+      {
+        backgroundColor: "#ffe2e7",
+      },
+      {
+        backgroundColor: "#ffe2e7",
+      },
+      {
+        backgroundColor: "#ffe2e7",
+      },
+      {
+        backgroundColor: "#ffe2e7",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+      {
+        backgroundColor: "#00ff00",
+      },
+
+      {
+        backgroundColor: "#ff0000",
+      },
+      {
+        backgroundColor: "#ff0000",
+      },
+      {
+        backgroundColor: "#ff0000",
+      },
+      {
+        backgroundColor: "#ff0000",
+      },
+      {
+        backgroundColor: "#ff0000",
+      },
+      {
+        backgroundColor: "#ff0000",
+      },
+      {
+        backgroundColor: "#ff0000",
+      },
+      {
+        backgroundColor: "#ff0000",
+      },
+      {
+        backgroundColor: "#ff0000",
+      },
+
+    ],
+    targetDivsStyle: [
+      {
+        flexDirection: "column",
+        flexWrap: 'wrap',
+      },
+    ],
+    codePlace: [
+      {
+        id: 1,
+        text: "#khinkali {",
+      },
+      {
+        id: 2,
+        text: "display: flex;",
+      },
+      {
+        id: 3,
+        text: "area",
+      },
+      {
+        id: 4,
+        text: "",
+      },
+      {
+        id: 5,
+        text: "",
+      },
+      {
+        id: 6,
+        text: "}",
+      },
+      {
+        id: 7,
+        text: "",
+      },
+      {
+        id: 8,
+        text: "",
+      },
+      {
+        id: 9,
+        text: "",
+      },
+      {
+        id: 10,
+        text: "",
+      }
+    ]
+  },
+  // 16: {
+  //   texts: [
+  //     {
+  //       text: "დაეხმარეთ ხინკლებს თავიანთ ლანგრებზე მოხვედრაში <strong>flex-direction</strong>, <strong>justify-content</strong> და <strong>align-items</strong> თვისებების გამოყენებით."
+  //     }
+  //   ],
+  //   answers: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   heights: [
+  //     {
+  //       height: '90px'
+  //     }
+  //   ],
+  //   movingDivs: [
+  //     {
+  //       backgroundColor: "./assets/images/origin.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/pinki.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/green.svg",
+  //     },
+  //   ],
+  //   targetDivs: [
+  //     {
+  //       backgroundColor: "#ffe2e7",
+  //     },
+  //
+  //     {
+  //       backgroundColor: "#ff0000",
+  //     },
+  //     {
+  //       backgroundColor: "#00ff00",
+  //     },
+  //   ],
+  //   targetDivsStyle: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   codePlace: [
+  //     {
+  //       id: 1,
+  //       text: "#khinkali {",
+  //     },
+  //     {
+  //       id: 2,
+  //       text: "display: flex;",
+  //     },
+  //     {
+  //       id: 3,
+  //       text: "area",
+  //     },
+  //     {
+  //       id: 4,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 5,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 6,
+  //       text: "}",
+  //     },
+  //     {
+  //       id: 7,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 8,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 9,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 10,
+  //       text: "",
+  //     }
+  //   ]
+  // },
+  // 17: {
+  //   texts: [
+  //     {
+  //       text: "დაეხმარეთ ხინკლებს თავიანთ ლანგრებზე მოხვედრაში <strong>flex-direction</strong>, <strong>justify-content</strong> და <strong>align-items</strong> თვისებების გამოყენებით."
+  //     }
+  //   ],
+  //   answers: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   heights: [
+  //     {
+  //       height: '90px'
+  //     }
+  //   ],
+  //   movingDivs: [
+  //     {
+  //       backgroundColor: "./assets/images/origin.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/pinki.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/green.svg",
+  //     },
+  //   ],
+  //   targetDivs: [
+  //     {
+  //       backgroundColor: "#ffe2e7",
+  //     },
+  //
+  //     {
+  //       backgroundColor: "#ff0000",
+  //     },
+  //     {
+  //       backgroundColor: "#00ff00",
+  //     },
+  //   ],
+  //   targetDivsStyle: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   codePlace: [
+  //     {
+  //       id: 1,
+  //       text: "#khinkali {",
+  //     },
+  //     {
+  //       id: 2,
+  //       text: "display: flex;",
+  //     },
+  //     {
+  //       id: 3,
+  //       text: "area",
+  //     },
+  //     {
+  //       id: 4,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 5,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 6,
+  //       text: "}",
+  //     },
+  //     {
+  //       id: 7,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 8,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 9,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 10,
+  //       text: "",
+  //     }
+  //   ]
+  // },
+  // 18: {
+  //   texts: [
+  //     {
+  //       text: "დაეხმარეთ ხინკლებს თავიანთ ლანგრებზე მოხვედრაში <strong>flex-direction</strong>, <strong>justify-content</strong> და <strong>align-items</strong> თვისებების გამოყენებით."
+  //     }
+  //   ],
+  //   answers: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   heights: [
+  //     {
+  //       height: '90px'
+  //     }
+  //   ],
+  //   movingDivs: [
+  //     {
+  //       backgroundColor: "./assets/images/origin.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/pinki.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/green.svg",
+  //     },
+  //   ],
+  //   targetDivs: [
+  //     {
+  //       backgroundColor: "#ffe2e7",
+  //     },
+  //
+  //     {
+  //       backgroundColor: "#ff0000",
+  //     },
+  //     {
+  //       backgroundColor: "#00ff00",
+  //     },
+  //   ],
+  //   targetDivsStyle: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   codePlace: [
+  //     {
+  //       id: 1,
+  //       text: "#khinkali {",
+  //     },
+  //     {
+  //       id: 2,
+  //       text: "display: flex;",
+  //     },
+  //     {
+  //       id: 3,
+  //       text: "area",
+  //     },
+  //     {
+  //       id: 4,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 5,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 6,
+  //       text: "}",
+  //     },
+  //     {
+  //       id: 7,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 8,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 9,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 10,
+  //       text: "",
+  //     }
+  //   ]
+  // },
+  // 19: {
+  //   texts: [
+  //     {
+  //       text: "დაეხმარეთ ხინკლებს თავიანთ ლანგრებზე მოხვედრაში <strong>flex-direction</strong>, <strong>justify-content</strong> და <strong>align-items</strong> თვისებების გამოყენებით."
+  //     }
+  //   ],
+  //   answers: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   heights: [
+  //     {
+  //       height: '90px'
+  //     }
+  //   ],
+  //   movingDivs: [
+  //     {
+  //       backgroundColor: "./assets/images/origin.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/pinki.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/green.svg",
+  //     },
+  //   ],
+  //   targetDivs: [
+  //     {
+  //       backgroundColor: "#ffe2e7",
+  //     },
+  //
+  //     {
+  //       backgroundColor: "#ff0000",
+  //     },
+  //     {
+  //       backgroundColor: "#00ff00",
+  //     },
+  //   ],
+  //   targetDivsStyle: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   codePlace: [
+  //     {
+  //       id: 1,
+  //       text: "#khinkali {",
+  //     },
+  //     {
+  //       id: 2,
+  //       text: "display: flex;",
+  //     },
+  //     {
+  //       id: 3,
+  //       text: "area",
+  //     },
+  //     {
+  //       id: 4,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 5,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 6,
+  //       text: "}",
+  //     },
+  //     {
+  //       id: 7,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 8,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 9,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 10,
+  //       text: "",
+  //     }
+  //   ]
+  // },
+  // 20: {
+  //   texts: [
+  //     {
+  //       text: "დაეხმარეთ ხინკლებს თავიანთ ლანგრებზე მოხვედრაში <strong>flex-direction</strong>, <strong>justify-content</strong> და <strong>align-items</strong> თვისებების გამოყენებით."
+  //     }
+  //   ],
+  //   answers: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   heights: [
+  //     {
+  //       height: '90px'
+  //     }
+  //   ],
+  //   movingDivs: [
+  //     {
+  //       backgroundColor: "./assets/images/origin.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/pinki.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/green.svg",
+  //     },
+  //   ],
+  //   targetDivs: [
+  //     {
+  //       backgroundColor: "#ffe2e7",
+  //     },
+  //
+  //     {
+  //       backgroundColor: "#ff0000",
+  //     },
+  //     {
+  //       backgroundColor: "#00ff00",
+  //     },
+  //   ],
+  //   targetDivsStyle: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   codePlace: [
+  //     {
+  //       id: 1,
+  //       text: "#khinkali {",
+  //     },
+  //     {
+  //       id: 2,
+  //       text: "display: flex;",
+  //     },
+  //     {
+  //       id: 3,
+  //       text: "area",
+  //     },
+  //     {
+  //       id: 4,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 5,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 6,
+  //       text: "}",
+  //     },
+  //     {
+  //       id: 7,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 8,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 9,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 10,
+  //       text: "",
+  //     }
+  //   ]
+  // },
+  // 21: {
+  //   texts: [
+  //     {
+  //       text: "დაეხმარეთ ხინკლებს თავიანთ ლანგრებზე მოხვედრაში <strong>flex-direction</strong>, <strong>justify-content</strong> და <strong>align-items</strong> თვისებების გამოყენებით."
+  //     }
+  //   ],
+  //   answers: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   heights: [
+  //     {
+  //       height: '90px'
+  //     }
+  //   ],
+  //   movingDivs: [
+  //     {
+  //       backgroundColor: "./assets/images/origin.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/pinki.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/green.svg",
+  //     },
+  //   ],
+  //   targetDivs: [
+  //     {
+  //       backgroundColor: "#ffe2e7",
+  //     },
+  //
+  //     {
+  //       backgroundColor: "#ff0000",
+  //     },
+  //     {
+  //       backgroundColor: "#00ff00",
+  //     },
+  //   ],
+  //   targetDivsStyle: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   codePlace: [
+  //     {
+  //       id: 1,
+  //       text: "#khinkali {",
+  //     },
+  //     {
+  //       id: 2,
+  //       text: "display: flex;",
+  //     },
+  //     {
+  //       id: 3,
+  //       text: "area",
+  //     },
+  //     {
+  //       id: 4,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 5,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 6,
+  //       text: "}",
+  //     },
+  //     {
+  //       id: 7,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 8,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 9,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 10,
+  //       text: "",
+  //     }
+  //   ]
+  // },
+  // 22: {
+  //   texts: [
+  //     {
+  //       text: "დაეხმარეთ ხინკლებს თავიანთ ლანგრებზე მოხვედრაში <strong>flex-direction</strong>, <strong>justify-content</strong> და <strong>align-items</strong> თვისებების გამოყენებით."
+  //     }
+  //   ],
+  //   answers: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   heights: [
+  //     {
+  //       height: '90px'
+  //     }
+  //   ],
+  //   movingDivs: [
+  //     {
+  //       backgroundColor: "./assets/images/origin.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/pinki.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/green.svg",
+  //     },
+  //   ],
+  //   targetDivs: [
+  //     {
+  //       backgroundColor: "#ffe2e7",
+  //     },
+  //
+  //     {
+  //       backgroundColor: "#ff0000",
+  //     },
+  //     {
+  //       backgroundColor: "#00ff00",
+  //     },
+  //   ],
+  //   targetDivsStyle: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   codePlace: [
+  //     {
+  //       id: 1,
+  //       text: "#khinkali {",
+  //     },
+  //     {
+  //       id: 2,
+  //       text: "display: flex;",
+  //     },
+  //     {
+  //       id: 3,
+  //       text: "area",
+  //     },
+  //     {
+  //       id: 4,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 5,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 6,
+  //       text: "}",
+  //     },
+  //     {
+  //       id: 7,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 8,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 9,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 10,
+  //       text: "",
+  //     }
+  //   ]
+  // },
+  // 23: {
+  //   texts: [
+  //     {
+  //       text: "დაეხმარეთ ხინკლებს თავიანთ ლანგრებზე მოხვედრაში <strong>flex-direction</strong>, <strong>justify-content</strong> და <strong>align-items</strong> თვისებების გამოყენებით."
+  //     }
+  //   ],
+  //   answers: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   heights: [
+  //     {
+  //       height: '90px'
+  //     }
+  //   ],
+  //   movingDivs: [
+  //     {
+  //       backgroundColor: "./assets/images/origin.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/pinki.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/green.svg",
+  //     },
+  //   ],
+  //   targetDivs: [
+  //     {
+  //       backgroundColor: "#ffe2e7",
+  //     },
+  //
+  //     {
+  //       backgroundColor: "#ff0000",
+  //     },
+  //     {
+  //       backgroundColor: "#00ff00",
+  //     },
+  //   ],
+  //   targetDivsStyle: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   codePlace: [
+  //     {
+  //       id: 1,
+  //       text: "#khinkali {",
+  //     },
+  //     {
+  //       id: 2,
+  //       text: "display: flex;",
+  //     },
+  //     {
+  //       id: 3,
+  //       text: "area",
+  //     },
+  //     {
+  //       id: 4,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 5,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 6,
+  //       text: "}",
+  //     },
+  //     {
+  //       id: 7,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 8,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 9,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 10,
+  //       text: "",
+  //     }
+  //   ]
+  // },
+  // 24: {
+  //   texts: [
+  //     {
+  //       text: "დაეხმარეთ ხინკლებს თავიანთ ლანგრებზე მოხვედრაში <strong>flex-direction</strong>, <strong>justify-content</strong> და <strong>align-items</strong> თვისებების გამოყენებით."
+  //     }
+  //   ],
+  //   answers: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   heights: [
+  //     {
+  //       height: '90px'
+  //     }
+  //   ],
+  //   movingDivs: [
+  //     {
+  //       backgroundColor: "./assets/images/origin.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/pinki.svg",
+  //     },
+  //     {
+  //       backgroundColor: "./assets/images/green.svg",
+  //     },
+  //   ],
+  //   targetDivs: [
+  //     {
+  //       backgroundColor: "#ffe2e7",
+  //     },
+  //
+  //     {
+  //       backgroundColor: "#ff0000",
+  //     },
+  //     {
+  //       backgroundColor: "#00ff00",
+  //     },
+  //   ],
+  //   targetDivsStyle: [
+  //     {
+  //       flexDirection: "row-reverse",
+  //       justifyContent: "center",
+  //       alignItems: "flex-end",
+  //     },
+  //   ],
+  //   codePlace: [
+  //     {
+  //       id: 1,
+  //       text: "#khinkali {",
+  //     },
+  //     {
+  //       id: 2,
+  //       text: "display: flex;",
+  //     },
+  //     {
+  //       id: 3,
+  //       text: "area",
+  //     },
+  //     {
+  //       id: 4,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 5,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 6,
+  //       text: "}",
+  //     },
+  //     {
+  //       id: 7,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 8,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 9,
+  //       text: "",
+  //     },
+  //     {
+  //       id: 10,
+  //       text: "",
+  //     }
+  //   ]
+  // },
 };
