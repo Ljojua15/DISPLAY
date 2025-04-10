@@ -81,5 +81,30 @@
   }
   @include mixins.mobile(){
     height: 40px;
+    &__swiper {
+      width: 50%;
+      height: 100%;
+      @include mixins.flex(center, center, row);
+      &--modal{
+        position: absolute;
+        width: 20%;
+        max-height: 200px;
+        height: 100%;
+        background-color: #373737;
+        top: 18%;
+      }
+      &--left {
+        max-width: calc(100% - 20px);
+        width: 20%;
+        height: 80%;
+      }
+      &--right{
+        width: 20%;
+        height: 80%;
+      }
+      &--content {
+        height: 80%;
+      }
+    }
   }
 }
