@@ -1,1 +1,19 @@
-<p>levels-grid works!</p>
+<div class="level">
+  <div class="level__name">ხინკალი FLEX</div>
+  <div class="level__swiper">
+    <div class="level__swiper--left"
+         [class.level__swiper--opacity]="$currentLevel$() === 1"
+         (click)="changeLevel('prev')"> <img src="./assets/images/arrowsss.png" alt="*" > </div>
+    <div class="level__swiper--content" (click)="openLevelPopup()">
+      <div class="level__swiper--modal" *ngIf="$isLevelOpens$()">
+        <display-levels-modal />
+      </div >
+      <p>
+        ლეველები: {{$currentLevel$()}} / {{$quantityOfLessons$()}}
+      </p>
+    </div>
+    <div class="level__swiper--right"
+         [class.level__swiper--opacity]="$currentLevel$() === $quantityOfLessons$()"
+         (click)="changeLevel('next')"><img src="./assets/images/arrowsss.png" alt="*"></div>
+  </div>
+</div>

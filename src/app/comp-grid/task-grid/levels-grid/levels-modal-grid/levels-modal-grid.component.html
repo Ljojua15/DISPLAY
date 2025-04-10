@@ -1,0 +1,13 @@
+<div class="level-grid-popup">
+  <div class="level-grid-popup__cont">
+
+    <div class="level-grid-popup__cont--items"
+         (click)="changeLevelFromButton(id)"
+         *ngFor="let id of idOfExamples"
+         [ngClass]="{'level-grid-popup__cont--active': id === $activeItem$()}"
+    >{{id}}</div>
+
+  </div>
+
+</div>
+<div class="level-grid-popup__reset"><button (click)="reset()">RESET</button></div>
