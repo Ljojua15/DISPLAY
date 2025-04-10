@@ -7,8 +7,6 @@ import {ResultGridComponent} from '@/app/comp-grid/result-grid/result-grid.compo
 @Component({
   selector: 'display-mtsvadi-grid',
   imports: [
-    TaskGridComponent,
-    ResultGridComponent
   ],
   templateUrl: './mtsvadi-grid.component.html',
   styleUrl: './mtsvadi-grid.component.scss'

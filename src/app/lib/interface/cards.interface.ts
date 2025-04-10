@@ -6,4 +6,5 @@ export interface Cards {
   background:string;
   url: string;
   start: string;
+  back?:string;
 }

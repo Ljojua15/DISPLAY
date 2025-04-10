@@ -11,7 +11,6 @@ import {LocalStorageService} from '@/app/lib/services/local-storage.service';
   selector: 'display-levels-grid',
   imports: [
     CommonModule,
-    LevelsModalGridComponent,
     LevelsModalComponent
   ],
   templateUrl: './levels-grid.component.html',

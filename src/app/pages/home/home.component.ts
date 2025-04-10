@@ -16,5 +16,6 @@ export class HomeComponent {
 
   constructor() {
     this.cards[0].numbers = this.flexService.flexConfigLength
+    this.cards[1].numbers = 0
   }
 }

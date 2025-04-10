@@ -6,16 +6,17 @@ export const CARDS_CONFIG : Cards[] = [
     style: 'FLEX',
     quantity: 'სავარჯიშოების რაოდენობა',
     numbers: 50,
-    background: '',
+    background: './assets/images/flex.png',
     url:'khinkali-flex',
-    start: 'დაწყება'
+    start: 'დაწყება',
+    back:'./assets/images/test.png'
   },
   {
     mainText: 'DISPLAY:',
     style: 'GRID',
     quantity: 'სავარჯიშოების რაოდენობა',
     numbers: 50,
-    background: '',
+    background: './assets/images/grid.png',
     url:'mtsvadi-grid',
     start: 'დაწყება'
   }
